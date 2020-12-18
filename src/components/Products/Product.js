@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom";
 
 export default function Product({image, title, id, price}) {
-    let url = image.url
+    let url = image.url;
     return <article className="product">
       <div className="img-container">
         <img src={url} alt={title}/>
